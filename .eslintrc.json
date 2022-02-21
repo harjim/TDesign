@@ -4,7 +4,7 @@
     "es2021": true,
     "node": true
   },
-  "extends": ["plugin:vue/essential", "standard"],
+  "extends": ["plugin:vue/essential", "standard", "plugin:prettier/recommended"],
   "parserOptions": {
     "ecmaVersion": "latest",
     "parser": "@typescript-eslint/parser",
