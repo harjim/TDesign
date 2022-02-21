@@ -10,6 +10,7 @@
   },
   "lint-staged": {
     "*.{md,js,jsx,ts,tsx,vue}": "prettier --write",
+    "*.scss": "stylelint --syntax scss --fix",
     "*.{js,jsx,ts,tsx,vue}": "eslint --fix"
   },
   "dependencies": {
@@ -18,6 +19,7 @@
   "devDependencies": {
     "@commitlint/cli": "^16.2.1",
     "@commitlint/config-conventional": "^16.2.1",
+    "@types/node": "^17.0.18",
     "@typescript-eslint/eslint-plugin": "^5.12.0",
     "@typescript-eslint/parser": "^5.12.0",
     "@vitejs/plugin-vue": "^2.2.0",
@@ -35,6 +37,9 @@
     "husky": "^7.0.0",
     "lint-staged": "^12.3.4",
     "prettier": "^2.5.1",
+    "stylelint": "^14.5.1",
+    "stylelint-config-standard": "^25.0.0",
+    "stylelint-scss": "^4.1.0",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
     "vue-tsc": "^0.29.8"
